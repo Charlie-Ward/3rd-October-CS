@@ -1,4 +1,3 @@
-
 def month_amount(month, year):
     match month:
         case "Jan" | "Mar" | "May" | "Jul" | "Aug" | "Oct" | "Dec":
@@ -10,6 +9,7 @@ def month_amount(month, year):
                 print("29")
             else:
                 print("28")
+
 
 print("Month is the first three letter eg: Jan")
 month = input("Please input a month: ")
